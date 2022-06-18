@@ -11,10 +11,19 @@
     
 }
 
-.encabezado {
+.encabezado{
     grid-area: encabezado;
+    align-items: center;
+    display: flex;
+    padding: 0 2rem;
     
 }
+
+.menu__link{
+    color:#333333;
+    padding:.5rem 1rem;
+}
+
 .contenido {
     grid-area: contenido;
 }
